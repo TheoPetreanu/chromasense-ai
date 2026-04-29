@@ -35,11 +35,9 @@ The response is split line by line. Each line is matched against two regex patte
 
 This is a pure frontend app — no server or build step required.
 
-1. Get an API key from [platform.openai.com](https://platform.openai.com)
+1. Get an API key from 
 2. Open `chromasense.html` and replace `YOUR_API_KEY_HERE` with your key
-3. Open the file in any browser
 
-> **Note:** Never commit a real API key to a public repo. For a production version, the API call should be proxied through a backend server so the key is never exposed client-side.
 
 ## Files
 
